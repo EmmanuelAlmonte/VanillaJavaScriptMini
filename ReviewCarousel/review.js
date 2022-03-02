@@ -76,8 +76,8 @@ nextBtn.addEventListener("click", () => {
 // show previous person
 prevBtn.addEventListener("click", () => { 
   currentItem--;
-  if(currentItem < reviews.length - 1){
-    currentItem = 3
+  if(currentItem < 0){
+    currentItem = reviews.length - 1
   }
   showPerson(currentItem);
 });
