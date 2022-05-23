@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+  <main class="calc-container">
+    <div class="calc-display-wrapper">
+      <h1 class="calc-display">0</h1>
+    </div>
+    <div class="calc-buttons">
+      <div class="calc-button-row">
+        <button class="calc-btn half clear" value="clear">C</button>
+
+        <button class="calc-btn fourth" value="delete"><img class="no-event" src="./images/bx-left-arrow-alt.svg"
+            alt="Delete Button"></button>
+
+        <button class="calc-btn fourth" value="/"><img class="no-event" src="./images/divide.svg"
+            alt="Divide Button"></button>
+      </div>
+      <div class="calc-button-row">
+        <button class="calc-btn fourth" value="7">7</button>
+        <button class="calc-btn fourth" value="8">8</button>
+        <button class="calc-btn fourth" value="9">9</button>
+        <button class="calc-btn fourth" value="*"><img class="no-event" src="./images/x.svg"
+            alt="Multiple Button"></button>
+      </div>
+      <div class="calc-button-row">
+        <button class="calc-btn fourth" value="4">4</button>
+        <button class="calc-btn fourth" value="5">5</button>
+        <button class="calc-btn fourth" value="6">6</button>
+        <button class="calc-btn fourth" value="-"><img class="no-event" src="./images/minus.svg"
+            alt="Minus Button"></button>
+      </div>
+      <div class="calc-button-row">
+        <button class="calc-btn fourth" value="1">1</button>
+        <button class="calc-btn fourth" value="2">2</button>
+        <button class="calc-btn fourth" value="3">3</button>
+        <button class="calc-btn fourth" value="+"><img class="no-event" src="./images/plus.svg"
+            alt="Plus Button"></button>
+      </div>
+      <div class="calc-button-row">
+        <button class="calc-btn three-fourths" value="0">0</button>
+        <button class="calc-btn fourth" value="equals">
+          <img class="no-event" src="./images/equals-solid.svg" alt="Equals Button" width="24px">
+        </button>
+      </div>
+    </div>
+  </main>
+  <script src="./scripts/index.js" defer></script>
+</body>
+
+</html>
